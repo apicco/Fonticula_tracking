@@ -1,0 +1,4 @@
+run("32-bit");
+run("Invert", "stack");
+run("Subtract Background...", "rolling=35 stack");
+saveAs("Tiff", "/Users/andreapicco/Desktop/60x-phase for tracking01/005_bkg.tif");
