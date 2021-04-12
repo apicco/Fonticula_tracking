@@ -276,7 +276,7 @@ figsize = ( 6.5 , 5.5 )
 
 # plot histograms for filose and lobose
 
-exec( open( "../60x_liquid_culture/60x-phase for tracking01/filo-lobo-speeds.py").read() )
+exec( open( "../60x_liquid_culture/60x-phase for tracking01/filo-lobo-speeds.py").read() ) #this file is now named Lobose_Filose_velocities.py in the repsitory
 
 # plot speeds 
 
