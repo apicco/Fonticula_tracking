@@ -1,5 +1,7 @@
 # Fonticula_tracking
-A collection of the image analysis macros and tracking algorithm used to track Fonticula dynamics.
+A collection of the image analysis macros and tracking algorithm used to track Fonticula dynamics. 
+
+_Note that the python script are meant to detail the algorithms but the paths where the data are stored aren't mantained. You should update those to your environment, if you want the scripts to run._
 
 # Tracking of Lobose and Filose dynamics.
 
@@ -15,4 +17,3 @@ In Fiji/ImageJ, we converted the images to 32-bit and added a small float (0.01)
 
 We tracked spot dynamics with Particle Tracker (Mosaic) using the following parameters: Radius = 7, Cutoff = 0, Percentile = 0.4, Linking range = 3, Displacement = 10. _See analysis.py for the velocity quantifications and plotting._
 
-_Note that the python script are meant to detail the algorithms but the paths where the data are stored aren't mantained. You should update those to your environment, if you want the scripts to run._
