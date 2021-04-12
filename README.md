@@ -19,7 +19,7 @@ We tracked single cells and collectives dynamics by following their vacuole dyna
 We used Fiji/ImageJ to perform the tracking.
 In Fiji/ImageJ, we converted the images to 32-bit and added a small float (0.01). We then computed the log transform of the image. The small float prevented pixels from 0 intensity to diverge in the log transform. We then inverted the image by multiplication by -1. Now the dark vacuoles appear as bright spots. We background-subtracted the image with a rolling ball algorithm using a kernel radius of 9 pixels. Finally, we performed a Gaussian blur filter with kernel 2 to make vacuoles look more like spots to ease their recognition by the tracking algorithm. 
 
-_See the file Fonticula_snake_macro.ijm._
+_See the file Fonticula_snakes_macro.ijm._
 
 We tracked spot dynamics with Particle Tracker (Mosaic) using the following parameters: Radius = 7, Cutoff = 0, Percentile = 0.4, Linking range = 3, Displacement = 10. 
 
